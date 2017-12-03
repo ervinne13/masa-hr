@@ -10,4 +10,9 @@ class UserAccount extends User
     public $incrementing  = false;
     protected $primaryKey = 'username';
 
+    public function getRolesString()
+    {
+        return "Administrator";
+    }
+
 }

@@ -19,17 +19,6 @@
 
         <div class="collapse navbar-collapse" id="navbar">
 
-            <!-- START Search Mobile -->
-            <div class="form-group hidden-lg hidden-md hidden-sm">
-                <div class="input-group hidden-lg hidden-md">
-                    <input type="text" class="form-control" placeholder="Search for...">
-                    <span class="input-group-btn">
-                        <button class="btn btn-primary" type="button"><i class="fa fa-fw fa-search"></i></button>
-                    </span>
-                </div>
-            </div>
-            <!-- END Search Mobile -->
-
             <!-- START Left Side Navbar -->
             <ul class="nav navbar-nav navbar-left clearfix yamm">
 
@@ -40,19 +29,9 @@
                     </a>
                 </li>
                 <!-- END Switch Sidebar ON/OFF -->  
-                <li class="spin-search-box clearfix hidden-xs">
-                    <a href="#" class="pull-left">
-                        <i class="fa fa-search fa-lg icon-inactive"></i>
-                        <i class="fa fa-close fa-lg icon-active"></i>
-                    </a>
-                    <div class="input-group input-group-sm pull-left p-10">
-                        <input type="text" class="form-control" placeholder="Search for...">
-                        <span class="input-group-btn">
-                            <button class="btn btn-primary" type="button">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </span>
-                    </div>
+                <li class="m-l-1 m-t-1 media-middle">
+                    <img src="{{url("img/logo.png")}}" width="30px" alt="MASA">
+                    Manpower for Advertising Services Agency Inc. (MASA Inc.)
                 </li>
             </ul>
             <!-- START Left Side Navbar -->

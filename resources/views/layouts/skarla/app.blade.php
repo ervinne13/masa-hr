@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
         <title>
-            SKARLA | Financial 
+            MASA
         </title>
 
         <!--START Loader -->
@@ -21,17 +21,19 @@
         <link rel="stylesheet" href="{{skarla_url("/assets/stylesheets/app.min.e7c8016f.css")}}">
 
         <!-- START Favicon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="{{skarla_url("/assets/images/favicons/apple-touch-icon.png")}}">
-        <link rel="icon" type="image/png" sizes="192x192" href="{{skarla_url("/assets/images/favicons/android-chrome-192x192.png")}}">
-        <link rel="icon" type="image/png" sizes="192x192" href="{{skarla_url("/assets/images/favicons/android-chrome-256x256.png")}}">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{skarla_url("/assets/images/favicons/favicon-32x32.png")}}">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{skarla_url("/assets/images/favicons/favicon-16x16.png")}}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{url("/img/logo.png")}}">
+        <link rel="icon" type="image/png" sizes="192x192" href="{{url("/img/logo.png")}}">
+        <link rel="icon" type="image/png" sizes="192x192" href="{{url("/img/logo.png")}}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{url("/img/logo.png")}}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{url("/img/logo.png")}}">
         <link rel="mask-icon" href="{{skarla_url("/assets/images/favicons/safari-pinned-tab.svg")}}" color="#f85d4c">
         <meta name="theme-color" content="#ffffff">
         <!-- END Favicon -->
 
         <!-- RSS -->
         <link rel="alternate" type="application/rss+xml" title="RSS" href="{{skarla_url("/atom.xml")}}">
+        
+        <link rel="stylesheet" href="{{url("css/app.css")}}">
 
         <!-- jekyll settings -->
         <script>
@@ -52,8 +54,7 @@
             </nav>
 
             <div class="content">                
-                <div class="container">
-                    <div class="m-t-2"></div>
+                <div class="container">                    
                     @yield('content')
                 </div>
             </div>
